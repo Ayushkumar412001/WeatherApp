@@ -1,0 +1,36 @@
+body {
+    font-family: poppins;
+}
+.topHeading {
+    color: white;
+    text-shadow: 3px 3px 10px black;
+}
+.background_img {
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    position:fixed;
+    top: 0;
+    z-index: -10;
+    filter: blur(4px);
+}
+.background_img img {
+    width: 100%;
+    height: 100vh;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+.footer p {
+    padding-top: 15px;
+}
+.footer a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
